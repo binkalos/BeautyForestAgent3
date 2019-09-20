@@ -69,7 +69,7 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(124, 17);
             this.toolStripStatusLabel1.Text = "3112이규빈-폰트변경";
-            this.toolStripStatusLabel1.Click += new System.EventHandler(this.ToolStripStatusLabel1_Click);
+           
             // 
             // tlsMenu
             // 
@@ -99,6 +99,7 @@
             this.tsbtnFont.Name = "tsbtnFont";
             this.tsbtnFont.Size = new System.Drawing.Size(23, 22);
             this.tsbtnFont.Text = "toolStripButton1";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
@@ -108,6 +109,7 @@
             this.tsbtnColor.Name = "tsbtnColor";
             this.tsbtnColor.Size = new System.Drawing.Size(23, 22);
             this.tsbtnColor.Text = "toolStripButton2";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // FormOpinion
             // 
